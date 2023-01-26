@@ -1,10 +1,12 @@
+import React from "react";
 import "./App.css";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div>
-      <h1 className="title">Work under Construction!</h1>
-    </div>
+    <React.Fragment>
+      <Navbar />
+    </React.Fragment>
   );
 }
 
