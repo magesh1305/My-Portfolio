@@ -2,8 +2,10 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #3e497a;
+  color: black;
 }
+
+/* 3e497a */
 
 .about {
   width: 100%;
@@ -13,7 +15,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  background-color: black;
   color: #f0f0f0;
 }
 
@@ -44,7 +46,7 @@
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: black;
 }
 
 .skills .list {
