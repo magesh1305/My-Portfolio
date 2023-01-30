@@ -1,12 +1,21 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home";
+import Projects from "./Components/Projects";
+import Experience from "./Components/Experience";
 
 function App() {
   return (
-    <React.Fragment>
-      <Navbar />
-    </React.Fragment>
+    <div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
