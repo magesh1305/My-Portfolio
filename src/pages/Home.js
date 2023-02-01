@@ -15,7 +15,10 @@ function Home() {
           <IconButton
             aria-label="Linkedin.com"
             onClick={() =>
-              window.open("https://www.linkedin.com/in/magesh-kumar-2389421a4")
+              window.open(
+                "https://www.linkedin.com/in/magesh-kumar-2389421a4",
+                "_self"
+              )
             }
           >
             <LinkedInIcon />
@@ -24,7 +27,8 @@ function Home() {
             aria-label="gmail.com"
             onClick={() =>
               window.open(
-                "https://mail.google.com/mail/?view=cm&fs=1&to=muthumageshkumar@gmail.com"
+                "https://mail.google.com/mail/?view=cm&fs=1&to=muthumageshkumar@gmail.com",
+                "_self"
               )
             }
           >
@@ -32,7 +36,9 @@ function Home() {
           </IconButton>
           <IconButton
             aria-label="github.com"
-            onClick={() => window.open("https://github.com/magesh1305")}
+            onClick={() =>
+              window.open("https://github.com/magesh1305", "_self")
+            }
           >
             <GithubIcon />
           </IconButton>

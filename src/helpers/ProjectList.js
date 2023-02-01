@@ -1,9 +1,9 @@
-import Proj2 from "../assets/proj2.jpg";
+import project1 from "../assets/project1.png";
 
 export const ProjectList = [
   {
     name: "React Notes App",
-    image: Proj2,
+    image: project1,
     skills: "React js",
   },
 ];
