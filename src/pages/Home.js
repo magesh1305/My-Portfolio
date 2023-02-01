@@ -12,36 +12,27 @@ function Home() {
         <h2> Hi, My Name is Magesh Kumar</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <IconButton
-            aria-label="Linkedin.com"
+          <LinkedInIcon
             onClick={() =>
               window.open(
                 "https://www.linkedin.com/in/magesh-kumar-2389421a4",
                 "_self"
               )
             }
-          >
-            <LinkedInIcon />
-          </IconButton>
-          <IconButton
-            aria-label="gmail.com"
+          />
+          <EmailIcon
             onClick={() =>
               window.open(
                 "https://mail.google.com/mail/?view=cm&fs=1&to=muthumageshkumar@gmail.com",
                 "_self"
               )
             }
-          >
-            <EmailIcon />
-          </IconButton>
-          <IconButton
-            aria-label="github.com"
+          />
+          <GithubIcon
             onClick={() =>
               window.open("https://github.com/magesh1305", "_self")
             }
-          >
-            <GithubIcon />
-          </IconButton>
+          />
         </div>
       </div>
       <div className="skills">

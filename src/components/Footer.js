@@ -10,29 +10,17 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <IconButton>
-          <InstagramIcon />
-        </IconButton>
-        <IconButton
-          aria-label="Whatsapp.com"
-          onClick={() => window.open("https://wa.me/7358654127")}
-        >
-          <WhatsAppIcon />
-        </IconButton>
-        <IconButton>
-          <FacebookIcon />
-        </IconButton>
-        <IconButton
-          aria-label="Linkedin.com"
+        <InstagramIcon />
+        <WhatsAppIcon onClick={() => window.open("https://wa.me/7358654127")} />
+        <FacebookIcon />
+        <LinkedInIcon
           onClick={() =>
             window.open(
               "https://www.linkedin.com/in/magesh-kumar-2389421a4",
               "_self"
             )
           }
-        >
-          <LinkedInIcon />
-        </IconButton>
+        />
       </div>
       <p> &copy; 2023 mageshkumar.vercel.app</p>
     </div>
