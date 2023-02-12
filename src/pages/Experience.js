@@ -47,7 +47,7 @@ function Experience() {
             Bachelor's Degree
           </h4>
 
-          <p> Computer Science</p>
+          <p> Computer Science Engineering</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
